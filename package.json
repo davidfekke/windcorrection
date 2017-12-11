@@ -1,11 +1,11 @@
 {
   "name": "windcorrection",
   "version": "1.0.0",
-  "description": "",
+  "description": "Creating a module for doing the calculations for wind correction based on cross wind data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "David Fekke <david@fekke.com>",
+  "license": "Apache-2.0"
 }
