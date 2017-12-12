@@ -17,6 +17,6 @@ test('Find the correct wind vector for heading 300 and wind of 30', () => {
     expect(course.windvector(300, 30)).toBe(90);
 });
 
-// test('Find the correct wind vector for heading 330 and wind of 30', () => {
-//     expect(course.windvector(330, 30)).toBe(60);
-// });
+test('Find the correct wind vector for heading 330 and wind of 30', () => {
+    expect(course.windvector(330, 210)).toBe(60);
+});
