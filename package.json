@@ -4,8 +4,11 @@
   "description": "Creating a module for doing the calculations for wind correction based on cross wind data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "David Fekke <david@fekke.com>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
 }
